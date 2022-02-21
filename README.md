@@ -34,6 +34,14 @@ python manage.py runserver
 Com o servidor rodando 127.0.0.1:8000
 execute python3 scripts/populate.py
 ```
+
+
+### Executando Tests Unitarios
+
+```
+pytest -v
+```
+
 ### Caso de Error
 ```
 "no Such Table core.enderecos" 
